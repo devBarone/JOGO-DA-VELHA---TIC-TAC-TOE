@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    background-color: #3B0855;
+}
+
+h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.8em;
+    color: #42e0d5;
+    top: 160px;
+    position: relative;
+    text-shadow: 1px 1px yellow;
+}
+
+.stage{
+    
+    position: relative;
+    top: 178px;
+    
+}
+
+.square{
+
+    width: 150px;
+    height: 150px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+    
+}
+
+.o{
+    position: relative;
+}
+
+
+.o:after{	
+       
+        content: "👾";
+        font-size: 60px;
+        line-height: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 15px;
+}
+
+.x{
+    position: relative;
+}
+
+
+.x:after{	
+       
+        content: "👽";
+        font-size: 60px;
+        line-height: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 15px;
+}
